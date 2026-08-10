@@ -5,5 +5,5 @@ let randomNum =Math.floor(num);
 console.log(randomNum);
 
 function btnGuessNumberOnAction() {
-    alert(haii)
+    alert("haii");
 }
