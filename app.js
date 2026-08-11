@@ -21,7 +21,17 @@ function btnGuessNumberOnAction() {
     alert("haii");
 }
 
-//const
+// let
+// var
+// const
+
+//var vs let
+
+// {
+//   var studentName =["HUSH"]
+// }
+
+// const
 
 const customerList = [];
 
