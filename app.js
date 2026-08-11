@@ -13,10 +13,18 @@ function btnGuessNumberOnAction() {
   background: "#fff url(/images/trees.png)",
   backdrop: `
     rgba(0,0,123,0.4)
-    url("/images/nyan-cat.gif")
+    url("https://media3.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3cXA4d3dpeTU4bDVxdHBzbHB6dml0N3d4bzlwaXhydGtyZ3Y3bGlwbiZlcD12MV9naWZzX3RyZW5kaW5nJmN0PWc/VXS7y6lz5ZEI0W7ZOB/giphy.webp")
     left top
     no-repeat
   `
 });
     alert("haii");
 }
+
+//const
+
+//const customerList = [];
+
+//customerList.push("HUSH");
+
+//
