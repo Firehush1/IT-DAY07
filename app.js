@@ -27,19 +27,26 @@ function btnGuessNumberOnAction() {
 
 //var vs let
 
-// {
-//   var studentName =["HUSH"]
-// }
+{
+  var studentName ="HUSH";
+  let age = 18;
+
+}
+
+console.log(studentName);
+console.log(age);
+
+
 
 // const
 
-const customerList = [];
+// const customerList = [];
 
-customerList.push("HUSH");
+// customerList.push("HUSH");
 
-console.log(customerList);
+// console.log(customerList);
 
-customerList = "HUSH"
+// customerList = "HUSH"
 
-console.log(typeof customerList);
+// console.log(typeof customerList);
 
