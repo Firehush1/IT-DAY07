@@ -28,3 +28,8 @@ const customerList = [];
 customerList.push("HUSH");
 
 console.log(customerList);
+
+customerList = "HUSH"
+
+console.log(typeof customerList);
+
