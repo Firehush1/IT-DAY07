@@ -23,8 +23,8 @@ function btnGuessNumberOnAction() {
 
 //const
 
-//const customerList = [];
+const customerList = [];
 
-//customerList.push("HUSH");
+customerList.push("HUSH");
 
-//
+console.log(customerList);
