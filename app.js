@@ -32,12 +32,17 @@ function btnGuessNumberOnAction() {
   // var age = 18 ; var aknm 
   let age =18;
   console.log(age);
+
+  var address =Horana;
   
 }
 
 
 console.log(studentName);
+console.log(address);
 // console.log(age);
+
+
 
 
 
