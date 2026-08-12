@@ -35,6 +35,10 @@ function btnGuessNumberOnAction() {
 
   var address ="Horana";
   console.log(address);
+  var salary = 4567898;
+  console.log(salary);
+  
+
 }
 
 
