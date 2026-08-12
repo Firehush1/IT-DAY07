@@ -29,12 +29,15 @@ function btnGuessNumberOnAction() {
 
 {
   var studentName ="HUSH";
-  let age = 18;
-
+  // var age = 18 ; var aknm 
+  let age =18;
+  console.log(age);
+  
 }
 
+
 console.log(studentName);
-console.log(age);
+// console.log(age);
 
 
 
