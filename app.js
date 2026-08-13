@@ -21,11 +21,12 @@ function btnGuessNumberOnAction() {
     alert("haii");
 }
 
+//------------------------------------------------------------------------------------------------------
 // let
 // var
 // const
 
-//var vs let
+//var vs let-----------------------------------------------------------------------------------------------
 
 {
   var studentName ="HUSH";
@@ -48,10 +49,10 @@ console.log(studentName);
 // console.log(age);
 
 
+//---------------------------------------------------------------------------------------------
 
 
-
-// const
+// const------------------------------------------------------------------------------------------------------------------
 
 // const customerList = [];
 
@@ -63,13 +64,26 @@ console.log(studentName);
 
 // console.log(typeof customerList);
 
-const customerList = [];
+//Array methods-------------------------------------------------------------------------------------------------------------
 
-customerList.push(1);
-customerList.push(2);
-customerList.push(3);
-customerList.push(4);
+// const customerList = [];
 
-let revAr = customerList.reverse();
+// customerList.push(1);
+// customerList.push(2);
+// customerList.push(3);
+// customerList.push(1);
 
-console.log(revAr);
+// let revAr = customerList.reverse();
+
+// console.log(revAr);
+
+//----------------------------------------------------------------------------------------------------------------------
+
+const products = [
+  {name: "bus", inStock : true},
+  {name: "car", inStock : false},
+  {name: "van", inStock : true},
+  {name: "train", inStock : true},
+];
+
+let inStockItems = products.filter(product => product.inStock ==false);
