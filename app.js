@@ -86,4 +86,5 @@ const products = [
   {name: "train", inStock : true},
 ];
 
-let inStockItems = products.filter(product => product.inStock ==false);
+let inStockItems = products.filter(product => product.inStock ==true);
+console.log(inStockItems);
