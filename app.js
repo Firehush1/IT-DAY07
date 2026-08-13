@@ -71,7 +71,7 @@ console.log(studentName);
 // customerList.push(1);
 // customerList.push(2);
 // customerList.push(3);
-// customerList.push(1);
+// customerList.push(4);
 
 // let revAr = customerList.reverse();
 
@@ -87,4 +87,8 @@ const products = [
 ];
 
 // let inStockItems = products.filter(product => product.inStock ==true);
+
+let inStockItems = products.filter(function () {
+  
+})
 console.log(inStockItems);
