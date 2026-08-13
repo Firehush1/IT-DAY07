@@ -68,6 +68,8 @@ const customerList = [];
 customerList.push(1);
 customerList.push(2);
 customerList.push(3);
-customerList.push(1);
+customerList.push(4);
 
-console.log(customerList);
+let revAr = customerList.reverse();
+
+console.log(revAr);
