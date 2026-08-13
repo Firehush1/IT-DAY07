@@ -29,7 +29,8 @@ function btnGuessNumberOnAction() {
 
 {
   var studentName ="HUSH";
-  // var age = 18 ; var aknm 
+  // var age = 18 ; var aknm {} athulema console.log(); aka dann oni
+  
   let age =18;
   console.log(age);
 
@@ -62,3 +63,11 @@ console.log(studentName);
 
 // console.log(typeof customerList);
 
+const customerList = [];
+
+customerList.push(1);
+customerList.push(2);
+customerList.push(3);
+customerList.push(1);
+
+console.log(customerList);
