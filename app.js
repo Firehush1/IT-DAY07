@@ -88,7 +88,10 @@ const products = [
 
 // let inStockItems = products.filter(product => product.inStock ==true);
 
-let inStockItems = products.filter(function () {
+let inStockItems = products.filter(function (product) {return productFilter(product)})
   
-})
+function productFilter(product) {
+   return product.inStock==false;
+}
+
 console.log(inStockItems);
