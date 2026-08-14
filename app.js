@@ -28,23 +28,23 @@ function btnGuessNumberOnAction() {
 
 //var vs let-----------------------------------------------------------------------------------------------
 
-{
-  var studentName ="HUSH";
-  // var age = 18 ; var aknm {} athulema console.log(); aka dann oni
+// {
+//   var studentName ="HUSH";
+//   // var age = 18 ; var aknm {} athulema console.log(); aka dann oni
   
-  let age =18;
-  console.log(age);
+//   let age =18;
+//   console.log(age);
 
-  var address ="Horana";
-  console.log(address);
-  var salary = 4567898;
-  console.log(salary);
+//   var address ="Horana";
+//   console.log(address);
+//   var salary = 4567898;
+//   console.log(salary);
   
 
-}
+// }
 
 
-console.log(studentName);
+// console.log(studentName);
 
 // console.log(age);
 
@@ -88,10 +88,25 @@ const products = [
 
 // let inStockItems = products.filter(product => product.inStock ==true);
 
-let inStockItems = products.filter(function (product) {return productFilter(product)})
+// let inStockItems = products.filter(function (product) {return productFilter(product)})
   
-function productFilter(product) {
-   return product.inStock==false;
+// function productFilter(product) {
+//    return product.inStock==false;
+// }
+
+// console.log(inStockItems);
+
+//---------------------------------------------------------------------------------------------------------------------------
+
+// function getSum(num1,num2) {
+//   return num1+num2;
+// }
+
+// getSum(10,20);
+
+let getSum = function (num1,num2) {
+  return num1+num2;
 }
 
-console.log(inStockItems);
+console.log(getSum(10,20));
+
