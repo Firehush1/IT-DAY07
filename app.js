@@ -121,7 +121,13 @@ const products = [
 //-------------------------------------------------------------------------------------------------------------------------------
 
 
-//---------------aka parameter akai nam pass karanne-----------------------------------
-let sample = (txtvalue) =>{
-  return txtvalue;
+// //---------------aka parameter akai nam pass karanne-----------------------------------
+// let sample = (txtValue) =>{
+//   return txtvalue;
+// }
+
+let sample = txtValue =>{
+  return txtValue;
 }
+console.log(sample("Hi Babe"));
+
