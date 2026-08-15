@@ -141,4 +141,6 @@ console.log(sample("Hai HUSH"));
 
 //PARAMEETER 2K DANAWANM
 
-let getSum = (num1,num2) => num1
+let getSum = (num1,num2) => num1+num2;
+console.log(getSum(10,20));
+
