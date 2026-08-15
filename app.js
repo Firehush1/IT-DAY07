@@ -126,8 +126,10 @@ const products = [
 //   return txtvalue;
 // }
 
-let sample = txtValue =>{
-  return txtValue;
-}
-console.log(sample("Hi Babe"));
+// let sample = txtValue =>{
+//   return txtValue;
+// }
+// console.log(sample("Hi Babe"));
 
+let sample = txtValue => txtValue;
+console.log(sample("Hai HUSH"));
