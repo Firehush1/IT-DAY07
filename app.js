@@ -139,7 +139,6 @@ const products = [
 let sample = txtValue => txtValue;   //PARAMEETER 01 Danwanm
 console.log(sample("Hai HUSH"));
 
-//PARAMEETER 2K DANAWANM
 
 let getSum = (num1,num2) => num1+num2; //PARAMETER 02 Danawanm
 console.log(getSum(10,20));
